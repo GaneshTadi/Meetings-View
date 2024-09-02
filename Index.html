@@ -1,0 +1,47 @@
+HTML :-
+
+      <div class="container-fluid mt-5">
+        <!-- Filter Input on the right side -->
+        <div class="row">
+          <div class="col-md-4 offset-md-8">
+            <div class="col-md-4 offset-md-8">
+              <input class="input-range" type="text" id="dateRangeFilter" placeholder="Filter by Date Range"
+                style="
+                  padding: 10px;
+                  box-sizing: border-box;
+                  width: 100%;
+                  max-width: 250px; /* Adjust the max-width as needed */
+                  border: 1px solid #ccc;
+                  border-radius: 4px;
+                  font-size: 16px;
+                  margin-top: 20px; /* Add margin to separate it from the heading or other elements */
+                  display: block; /* Ensure it displays as a block-level element */
+                  margin-left: auto; /* Center align within the column */
+                  margin-right: 0; /* Align to the right side of the column */
+                ">
+            </div>
+              </div>
+        </div>
+      
+        <!-- Heading for the meetings section -->
+        <div class="row mt-4">
+          <div class="col-12">
+            <h1 style="
+            font-size: 2rem; /* Adjust the size of the heading text */
+            font-weight: bold; /* Make the text bold */
+            color: #333; /* Set the text color */
+            margin-bottom: 40px; /* Add some space below the heading */
+            text-align: center; /* Center align the heading */
+            padding: 10px; /* Add padding around the text */
+            border-bottom: 2px solid #00D1B2; /* Add a border line beneath the heading */
+            max-width: 800px; /* Limit the maximum width of the heading */
+            margin-left: auto; /* Center align the heading horizontally */
+            margin-right: auto; /* Center align the heading horizontally */
+          ">Your Meetings</h2>
+          </div>
+        </div>
+        
+        <div id="event-cards" class="card-container">
+          <!-- Event cards will be inserted here by JavaScript -->
+        </div>
+      </div>
